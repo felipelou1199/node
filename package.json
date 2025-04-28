@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/felipelou1199/node#readme",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "lodash": "^4.17.21",
     "sweetalert2": "^11.19.1"
