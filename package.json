@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Creation of a blog ussing node.js, express and mongo db",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipelou1199/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipelou1199/node/issues"
+  },
+  "homepage": "https://github.com/felipelou1199/node#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "sweetalert2": "^11.19.1"
+  }
+}
