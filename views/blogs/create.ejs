@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./partials/head.ejs')  %>
+    <%- include('../partials/head.ejs')  %>
 <body>
-    <%- include('./partials/nav.ejs')  %>
+    <%- include('../partials/nav.ejs')  %>
 
     <div class="create-blog content">
-        <form>
+        <form action="/blogs" method="POST">
             <label for="tittle">Blog tittle:</label>
             <input type="text" name="tittle" id="tittle" required>
             <label for="snippet">Blog snippet:</label>
@@ -15,7 +15,7 @@
             <button>submit</button>
         </form>
     </div>
-    <%- include('./partials/footer.ejs')  %>
+    <%- include('../partials/footer.ejs')  %>
     
 </body>
 </html>
